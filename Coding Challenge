@@ -1,0 +1,13 @@
+📌 Example Problem: Palindrome Check
+📄 Code
+text = input("Enter word: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+🧠 Explanation
+
+[::-1] reverses string
+
+Compares original vs reversed
