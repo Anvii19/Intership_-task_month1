@@ -31,3 +31,15 @@ elif choice == 4:
     print(divide(x, y))
 else:
     print("Invalid choice")
+    
+🧠 Explanation:
+
+def → defines a function
+
+return → sends result back
+
+if-elif → decision making
+
+input() → user input
+
+Protects division by zero
