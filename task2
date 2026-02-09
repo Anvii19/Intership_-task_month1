@@ -1,0 +1,35 @@
+Project 2: To-Do List (List + File Handling)
+📄 Code:
+tasks = []
+
+while True:
+    print("1.Add Task  2.View Tasks  3.Save & Exit")
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+        task = input("Enter task: ")
+        tasks.append(task)
+
+    elif choice == "2":
+        for i, task in enumerate(tasks, start=1):
+            print(i, task)
+
+    elif choice == "3":
+        with open("tasks.txt", "w") as file:
+            for task in tasks:
+                file.write(task + "\n")
+        break
+
+🧠 Explanation
+list stores tasks
+
+append() adds item
+
+enumerate() adds numbering
+
+with open() safely writes file
+
+.txt file saved automatically
+
+📌 Concepts Covered: List, Loop, File Writing
+
