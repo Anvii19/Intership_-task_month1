@@ -1,6 +1,8 @@
 # Intership_-task_month1
 Project 1: Calculator (Functions + Conditions)
-📄 Code :
+
+📄 Code:
+
 def add(a, b):
     return a + b
 
