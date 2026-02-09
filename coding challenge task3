@@ -1,0 +1,19 @@
+Debugging & Error Handling
+✅ Example: Safe Division
+📄 Code
+try:
+    x = int(input("Enter number: "))
+    print(10 / x)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except ValueError:
+    print("Enter valid number")
+Explanation
+
+try → risky code
+
+except → handles error safely
+
+Prevents program crash
+
+📌 Concepts Covered: Debugging, Exception Handling
