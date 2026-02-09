@@ -1,0 +1,27 @@
+Project 3: Student Management System (Dictionary)
+📄 Code
+students = {}
+
+while True:
+    roll = input("Enter roll number (or exit): ")
+    if roll == "exit":
+        break
+
+    name = input("Enter name: ")
+    marks = int(input("Enter marks: "))
+
+    students[roll] = {"name": name, "marks": marks}
+
+print(students)
+
+🧠 Explanation
+dictionary stores student data
+
+Nested dictionary structure
+
+Key = roll number
+
+Value = name & marks
+
+📌 Concepts Covered: Dictionary, Nested Data
+
